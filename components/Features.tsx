@@ -10,51 +10,58 @@ const Features = () => {
     {
       "icon": <GiHealthCapsule />,
       "name": "ביטוחי בריאות",
-      "description": "ביטוח המעניק כיסוי בסיסי בהתאם לצרכים הייחודיים שלכם, ועשוי לחסוך לכם עשרות ואף מאות אלפי שקלים. בין הכיסויים תוכלו למצוא תרופות, השתלות, ניתוחים, שירותים אמבולטוריים, שיקום, ושירותים רפואיים נוספים.",
+      "description": "ביטוח הבריאות מאפשר לצרכן לקבל שירותים רפואיים או לקבל פיצוי בהתאם לתנאים המוגדרים בפוליסת הביטוח. בין הכיסויים תוכלו למצוא תרופות, השתלות, ניתוחים, שירותים אמבולטוריים, ועוד.",
+      "slug": "health-insurance"
     },
     {
       "icon": <RiHealthBookFill />,
       "name": "ביטוחי חיים",
-      "description": "ביטוח המעניק כיסוי בסיסי בהתאם לצרכים הייחודיים שלכם, ועשוי לחסוך לכם עשרות ואף מאות אלפי שקלים. בין הכיסויים תוכלו למצוא תרופות, השתלות, ניתוחים, שירותים אמבולטוריים, שיקום, ושירותים רפואיים נוספים.",
+      "description": "ביטוח חיים הוא חוזה עם חברת הביטוח שמבטיח שבמקרה של מוות, חלילה, או במקרה של אובדן כושר עבודה ונכות, המבוטח או מי שבחר והגדיר להיות המוטבים יקבלו סכום כסף חד פעמי או קצבה חודשית.",
+      "slug": "life-insurance"
     },
     {
       "icon": <AiOutlineFundProjectionScreen />,
       "name": "קופות פנסיה",
-      "description": "ביטוח המעניק כיסוי בסיסי בהתאם לצרכים הייחודיים שלכם, ועשוי לחסוך לכם עשרות ואף מאות אלפי שקלים. בין הכיסויים תוכלו למצוא תרופות, השתלות, ניתוחים, שירותים אמבולטוריים, שיקום, ושירותים רפואיים נוספים.",
+      "description": "תשלום חודשי המשולם לעמית לאחר פרישתו מהעבודה, באירוע נכות לפני הפרישה מהעבודה או תשלום לשארים בעקבות אירוע פטירה של העמית/ה הן במהלך העבודה או לאחר הפרישה מעבודה.",
+      "slug": "pension"
     },
     {
       "icon": <AiFillAccountBook />,
       "name": "קרנות השתלמות",
-      "description": "ביטוח המעניק כיסוי בסיסי בהתאם לצרכים הייחודיים שלכם, ועשוי לחסוך לכם עשרות ואף מאות אלפי שקלים. בין הכיסויים תוכלו למצוא תרופות, השתלות, ניתוחים, שירותים אמבולטוריים, שיקום, ושירותים רפואיים נוספים.",
+      "description": "קופת חיסכון לעובדים שמשמשת כיום כאפיק חיסכון כללי שלא לטווח ארוך עובדים שימשכו את הכספים שהצטברו בקרן לאחר 6 שנים יהיו פטורים מתשלום מס הכנסה על הכספים והרווחים שצברו.",
     },
     {
       "icon": <GiTakeMyMoney />,
       "name": "קופות גמל להשקעה",
-      "description": "ביטוח המעניק כיסוי בסיסי בהתאם לצרכים הייחודיים שלכם, ועשוי לחסוך לכם עשרות ואף מאות אלפי שקלים. בין הכיסויים תוכלו למצוא תרופות, השתלות, ניתוחים, שירותים אמבולטוריים, שיקום, ושירותים רפואיים נוספים.",
+      "description": "חיסכון המאפשר לציבור הרחב לחסוך באופן עצמאי למשך כל תקופה שירצו, הכספים נזילים בכל עת וניתן למשוך אותם ללא קנס או מס מלבד מס על הרווחים שהצטברו מעבר לסכום המקורי שהופקד.",
+      "slug": "provident-fund"
     },
     {
       "icon": <FaWheelchair />,
       "name": "ביטוחים סיעודיים",
-      "description": "ביטוח המעניק כיסוי בסיסי בהתאם לצרכים הייחודיים שלכם, ועשוי לחסוך לכם עשרות ואף מאות אלפי שקלים. בין הכיסויים תוכלו למצוא תרופות, השתלות, ניתוחים, שירותים אמבולטוריים, שיקום, ושירותים רפואיים נוספים.",
+      "description": "ביטוח סיעודי הוא חוזה עם חברת הביטוח שמבטיח שבמקרה שהמבוטח יגיע למצב סיעודי, המבוטח יקבל קצבה חודשית.  סיעודי מיועד למבוגרים ולצעירים כאחד.",
+      "slug": "ltc"
     },
   ];
 
   return (
-    <section className="w-full mx-auto text-center p-2 py-10 bg-indigo-900">
-      <h2 className="font-bold text-3xl mb-8">אפשר להגיד שאנחנו מומחים בסוגי הביטחוחים הבאים</h2>
+    <section className="bg-blue-100 dark:bg-indigo-900">
+      <div className="w-full text-center p-2 py-10 max-w-5xl mx-auto">
+        <h2 className="font-bold text-3xl mb-8 dark:text-white">אנו מתמחים בכל סוגי הביטוחים</h2>
 
-      <div className="text-center mb-10">
-        <span className="inline-block w-1 h-1 rounded-full bg-gray-900 mr-1"></span>
-        <span className="inline-block w-3 h-1 rounded-full bg-gray-900 mr-1"></span>
-        <span className="inline-block w-40 h-1 rounded-full bg-gray-900 mr-1"></span>
-        <span className="inline-block w-3 h-1 rounded-full bg-gray-900 mr-1"></span>
-        <span className="inline-block w-1 h-1 rounded-full bg-gray-900 mr-1"></span>
-      </div>
+        <div className="text-center mb-10">
+          <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 dark:bg-white mr-1"></span>
+          <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 dark:bg-white mr-1"></span>
+          <span className="inline-block w-40 h-1 rounded-full bg-indigo-500 dark:bg-white mr-1"></span>
+          <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 dark:bg-white mr-1"></span>
+          <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 dark:bg-white mr-1"></span>
+        </div>
 
-      <div className="text-center mb-10 grid grid-cols-3">
-        {features.map((feat) => (
-          <Feature feature={feat} />
-        ))}
+        <div className="text-center mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {features.map((feat, index) => (
+            <Feature feature={feat} key={index} />
+          ))}
+        </div>
       </div>
     </section>
   );

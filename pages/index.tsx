@@ -5,15 +5,16 @@ import Header from '../components/Header';
 import Masthead from '../components/Masthead';
 import Testimonials from '../components/Testimonials'
 import Features from '../components/Features';
+import Footer from '../components/Footer';
+import WorkWith from '../components/WorkWith';
+import BaseHead from '../components/BaseHead';
 
-const title = "test";
+const title = "Digital Agent | הסוכן הדיגיטלי";
 
 const Home: NextPage = () => {
   return (
     <div style={{direction: 'rtl'}}>
-      <Head>
-        <title>{title}</title>
-      </Head>
+      <BaseHead title={title}></BaseHead>
 
       <Body>
         <Header title={'test'} />
@@ -21,7 +22,10 @@ const Home: NextPage = () => {
           <Masthead />
           <Testimonials />
           <Features />
+          <WorkWith />
         </main>
+
+        <Footer />
       </Body>
     </div>
   )

@@ -35,10 +35,9 @@ const ThemeToggle = () => {
   }, [])
 
   return isMounted ? (
-    <div className="inline-flex items-center p-[10px] rounded-lg bg-indigo-100 dark:bg-slate-800">
+    <div className="inline-flex items-center p-[10px] rounded-lg bg-indigo-100 dark:bg-slate-800 cursor-pointer" onClick={toggleTheme}>
       <button
         key={theme}
-        onClick={toggleTheme}
         aria-label="Toggle theme"
       >
         {theme === 'light' ? <IoSunny /> : <IoMoon />}

@@ -19,14 +19,11 @@ const Header = ({title}: Props) => {
               <FaShieldAlt className="w-5 inline-block transition-transform group-hover:scale-110" /> הסוכן הדיגיטלי
             </h2>
           </a>
-          <div className="items-center gap-6 hidden md:flex">
-            <NavLink href="/about">אודותינו</NavLink>
-            <NavLink href="/about">לקוחות פרטיים</NavLink>
-            <NavLink href="/about">לקוחות עסקיים</NavLink>
-            <NavLink className="inline-flex items-center gap-2 border rounded-lg border-slate-800 dark:border-slate-100 px-2 py-1 justify-center" href="/quote">השווה ביטוח</NavLink>
+          <div className="flex-1"></div>
+          <div className="gap-6 hidden md:flex">
+            <NavLink className="inline-flex items-center gap-2 border rounded-lg border-slate-800 dark:border-slate-100 px-2 py-1" href="/quote">השווה ביטוח</NavLink>
             <NavLink className="inline-flex items-center gap-2 border rounded-lg border-slate-800 dark:border-slate-100 px-2 py-1" href="tel:0524200785"><AiOutlinePhone /> 052-4200785</NavLink>
           </div>
-          <div className="flex-1"></div>
           <ThemeToggle />
         </nav>
       </div>

@@ -8,7 +8,7 @@ const Masthead = () => {
       </div>
       <div className="z-10 text-center px-8 drop-shadow-lg shadow-black">
         <div className="uppercase text-lg mb-4">
-          מעוניינים לבצע השוואת ביטוחים?
+          מעוניינים לבצע השוואת ביטוחים? משלמים מחיר יקר מדיי על המוצרים הביטוחיים שלכם?
         </div>
         <div className="text-4xl font-plexsans font-medium">
           תנו לסוכן הדיגיטלי לעשות את העבודה <span className="text-indigo-500">בשבילכם</span>
